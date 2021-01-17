@@ -2,7 +2,9 @@
 ## 概述
 
 - en doc   [readme](doc/en/readme.md)
-在RoboRTS的底盘代码的基础下，修改了云台的代码。
+在RoboRTS的原有框架下下，删除了除底盘外的所有有额外控制的代码，保留了掉线检测，电池电量检测等相关代码，
+修改了部分底盘代码，在gimble-task，chassis task ,main,macanamum以及Can ,PWM等相应类中作出修改，
+使得可以控制控制了3个电机，以及3个舵机。
 
 ### 软件环境
 
@@ -95,10 +97,6 @@
 **components**：通用机器人模块，包括命令行，驱动模块和系统组件
 
 **doc**：说明文档
-
-**MDK-ARM**：armcc工具链，注意：未购买license最多只能编译20kb大小固件
-
-**tools**: cmake gnu toolchain. You should install make, cmake, arm-none-eabi and set env value.
 
 ### 软件体系
 
