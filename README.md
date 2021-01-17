@@ -66,7 +66,7 @@
 19: firmware config pin.
 
 **C型板上的SWD接口**
-用来连接SV2-Link连接接口
+用来连接SV2-Link或J-Link连接接口
 
 ### 功能模块
 
